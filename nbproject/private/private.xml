@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/app/controllers/LoginController.php</file>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/app/models/User.php</file>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/app/views/private/index.php</file>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/persistance/CONF/credentials.json</file>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/app/controllers/RestauranteController.php</file>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/app/views/public/index.php</file>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/app/models/Restaurante.php</file>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/app/views/private/insert.php</file>
+            <file>file:/C:/xampp/htdocs/dw20ev1_ElTenedor4V/app/controllers/CategoriaController.php</file>
+        </group>
+    </open-files>
+</project-private>

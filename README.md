@@ -13,7 +13,7 @@ La aplicación utiliza XAMPP para el servidor web y la base de datos, y sigue un
 3. Navegador web actualizado.
 
 ## Instalación y configuración
-### 1. Clonar el repositorio
-Clona el repositorio en tu máquina local Xamp en la carpeta htdocs:
+### 1. Clonar el repositorio desde la rama MASTER
+Clona el repositorio desde la rama MASTER en tu máquina local Xamp en la carpeta htdocs:
 ```bash
 git clone https://github.com/Lxx367/DW_Recu_Examen

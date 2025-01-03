@@ -16,4 +16,4 @@ La aplicación utiliza XAMPP para el servidor web y la base de datos, y sigue un
 ### 1. Clonar el repositorio
 Clona el repositorio en tu máquina local Xamp en la carpeta htdocs:
 ```bash
-git clone [https://github.com/tu-usuario/el-tenedor-mvc.git](https://github.com/Lxx367/DW_Recu_Examen/edit/main/README.md)
+git clone https://github.com/Lxx367/DW_Recu_Examen

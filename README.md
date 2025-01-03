@@ -5,3 +5,15 @@ El Tenedor MVC es una aplicación web para gestionar restaurantes, desarrollada 
 
 La aplicación utiliza XAMPP para el servidor web y la base de datos, y sigue una estructura organizada para facilitar su mantenimiento y escalabilidad.
 
+## Requisitos previos
+1. **XAMPP**:
+   - PHP >= 7.4
+   - MySQL >= 5.7
+2. **NetBeans** (o cualquier editor de PHP compatible).
+3. Navegador web actualizado.
+
+## Instalación y configuración
+### 1. Clonar el repositorio
+Clona el repositorio en tu máquina local Xamp en la carpeta htdocs:
+```bash
+git clone [https://github.com/tu-usuario/el-tenedor-mvc.git](https://github.com/Lxx367/DW_Recu_Examen/edit/main/README.md)

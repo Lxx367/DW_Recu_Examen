@@ -1,0 +1,84 @@
+
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 14-11-2024 a las 11:47:40
+-- Versión del servidor: 10.4.32-MariaDB
+-- Versión de PHP: 8.2.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de datos: `tenedor4vbd`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `restaurant`
+--
+
+CREATE TABLE `restaurant` (
+  `id` int(11) NOT NULL,
+  `name` varchar(200) DEFAULT NULL,
+  `image` varchar(500) DEFAULT NULL,
+  `menu` varchar(2000) DEFAULT NULL,
+  `minorprice` float DEFAULT NULL,
+  `mayorprice` float DEFAULT NULL,
+  `idCategory` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `restaurant`
+--
+
+INSERT INTO `restaurant` (`id`, `name`, `image`, `menu`, `minorprice`, `mayorprice`, `idCategory`) VALUES
+(3, ' ANTES ITALIANO AHORA CHINO', '    https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudGVzfGVufDB8fDB8fHww', 'TESTING', 20, 70, 2),
+(8, 'SIDRERIA', 'https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudGVzfGVufDB8fDB8fHww', 'CHULETON', 50, 20, 3),
+(9, 'TESTING CHINO', 'https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudGVzfGVufDB8fDB8fHww', 'MENU CHINO', 30, 50, 2);
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `restaurant`
+--
+ALTER TABLE `restaurant`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FOREIGN_KEY1` (`idCategory`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `restaurant`
+--
+ALTER TABLE `restaurant`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `restaurant`
+--
+ALTER TABLE `restaurant`
+  ADD CONSTRAINT `FOREIGN_KEY1` FOREIGN KEY (`idCategory`) REFERENCES `category` (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
